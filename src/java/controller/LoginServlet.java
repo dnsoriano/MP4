@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet LoginServlet</title>");            
+            out.println("<title>Servlet LoginServlet </title>");            
             out.println("</head>");
             out.println("<body>");
             String uname=request.getParameter("uname");
