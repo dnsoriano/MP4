@@ -12,6 +12,7 @@
         <title>My Shopping Cart</title>
     </head>
     <body>
+        
        <%
             response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");
             if(session.getAttribute("username")==null){
@@ -19,6 +20,7 @@
             }
             
         %>
+        
         <h1>Shopping Cart</h1>
         
           <form action="OrderingServlet.do" method="post">
