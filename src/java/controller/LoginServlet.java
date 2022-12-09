@@ -19,7 +19,7 @@ import model.Person;
 
 /**
  *
- * @author jacob
+ * @
  */
 public class LoginServlet extends HttpServlet {
 
