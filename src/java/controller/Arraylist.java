@@ -6,7 +6,7 @@ package controller;
 
 /**
  *
- * @author jacob
+ * 
  */
 class Arraylist<T> {
     
