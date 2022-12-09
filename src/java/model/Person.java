@@ -13,9 +13,11 @@ import java.util.ArrayList;
 public class Person {
 public String name;
 public String password;
+public String type;
 public Person(String name,String password,String type){
  this.name=name;
  this.password=password;
+ this.type=type;
  
 }
 /*

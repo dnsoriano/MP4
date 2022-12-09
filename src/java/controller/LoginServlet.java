@@ -19,7 +19,7 @@ import model.Person;
 
 /**
  *
- * @
+ * @author jacob
  */
 public class LoginServlet extends HttpServlet {
 
@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet LoginServlet </title>");            
+            out.println("<title>Servlet LoginServlet</title>");            
             out.println("</head>");
             out.println("<body>");
             String uname=request.getParameter("uname");
@@ -49,14 +49,16 @@ public class LoginServlet extends HttpServlet {
             
             
             Person p1=new Person("Jacob","admin","Guest");
-            Person p2=new Person("Hannah","admin1","User");
+            Person p2=new Person("Hannah","admin1","Customer");
             users.add(p1);
             users.add(p2);
             
             
             
              for(Person a:users){
-                 if(uname.equals(a.name)&&pass.equals(a.password)){
+               
+                 
+                 if(uname.equals(a.name)&&pass.equals(a.password)&&a.type.equals("Customer")){
                   HttpSession session=request.getSession();
                   session.setAttribute("username", uname);
                   response.sendRedirect("ShoppingCart.jsp");
@@ -68,68 +70,11 @@ public class LoginServlet extends HttpServlet {
                  
              }
              
-                
-               
-                 
-              
-              
-                 /*
-                 if(a.name.equals(uname)){
-                   out.print(uname);
-                 }
-                 else{
-                     response.sendRedirect("index.jsp"); 
-                 }
-                 */
-           // HttpSession session=request.getSession();
-            /*
-            for(Person a:users){
-                if(a.name.equals(uname)&&a.password.equals(pass)){
-                   out.println(a.name);
-                   out.println(a.password);
-               
-                
-                }
-                
-                else{
-                    response.sendRedirect("index.jsp");
-                }
-               
-                
-               out.println(a.name+"<br>");
-               out.println(a.password+"<br>");
-              */
-         
-                 
-            
-            
-            
-           
-            //out.print(session.getAttribute("name"));
-            
-            /*
-            while(it.hasNext()){
-              
-               
-                
-                
-                
-                
-                
-                it.next();
-                
-            }
-            
-            */
-            
-           
-           
-           
-            
+             
              RequestDispatcher rd =request.getRequestDispatcher("loginpage.jsp");
               
             rd.include(request, response);
-            out.println("Wrong username or password");
+            out.println("Wrong username or password or status");
             out.println("</body>");
             
             
