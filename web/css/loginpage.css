@@ -1,0 +1,27 @@
+*{
+margin: 0;
+
+
+}
+
+h1{
+text-align: center;
+padding-top:2%;
+}
+
+h5{
+font-size: 1em;    
+}
+
+#container{
+ text-align: center;  
+ border:1px solid black;
+ padding-top: 10px;
+}
+
+
+
+
+
+
+
