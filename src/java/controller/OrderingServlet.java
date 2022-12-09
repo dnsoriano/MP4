@@ -20,7 +20,7 @@ import model.OrderInfo;
 
 /**
  *
- * @author jacob
+ * 
  */
 public class OrderingServlet extends HttpServlet {
     String email;
