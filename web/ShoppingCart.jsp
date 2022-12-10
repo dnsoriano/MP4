@@ -30,8 +30,14 @@
              
             Select your Food to order<p>
                 <select name="order_type" size="1">
-                    <option>Burger with fries(75 pesos)
-                    <option>Chicken with rice(80 pesos)
+                    <option>Brown Leather Couch
+                    <option>Luxurious Wooden Dining Table
+                    <option>Wooden Victorian Cabinet   
+                    <option>Modern Luxurious Drawer  
+                    <option>Multi-Purpose Premium Office/Study/Computer Table
+                    <option>Modern Luxurious Expanding Shoe Rack / Cabinet  
+                    <option>Wooden Modern Luxurious Bed Frame
+                    <option>Luxurious Brown Leather Club Chair
                     
                     
                 </select><br><br>

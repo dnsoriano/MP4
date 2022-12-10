@@ -140,13 +140,13 @@ section {
 .home-img img {
     max-width: 100%;
     width: 600px;
-    height: auto;
+    height: 600px;
 }
 
 .home-form {
     max-width: 100%;
     width: 600px;
-    height: auto;
+    height: text-align;
 }
 
 .home-text h1 {
