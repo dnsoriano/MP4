@@ -13,10 +13,9 @@
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <form action="Logout">
-            
+        <form action="Logout" >
             <input type="submit" value="Logout"> 
-                        </form>
+        </form>
        <%
             response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");
             if(session.getAttribute("username")==null){
@@ -133,4 +132,10 @@
                         
                 </section>
     </body>
+    <footer>
+           <label><h4 class="contact">Contact Us</label>
+                <h5>Email Address:<% out.print(getServletContext().getInitParameter("myEmail")); %></h5>
+                <h5>Powered by: <% out.print(getServletContext().getInitParameter("powered_by")); %> </h5>
+           </h4>
+       </footer>
 </html>

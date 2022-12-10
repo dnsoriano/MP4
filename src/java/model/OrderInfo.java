@@ -68,20 +68,32 @@ public class OrderInfo {
  public String getTotalPrice(String productname,String quantity){
      int int_total_price=0;
      String totalprice;
-     if(productname.equals("Burger with fries(75 pesos)")){
-      int_total_price=Integer.valueOf(quantity)*75;
+     if(productname.equals("Brown Leather Couch")){
+      int_total_price=Integer.valueOf(quantity)*27500;
     
      }
-     else if(productname.equals("Chicken with rice(80 pesos)")){
-       int_total_price=Integer.valueOf(quantity)*80;  
+     else if(productname.equals("Luxurious Wooden Dining Table")){
+       int_total_price=Integer.valueOf(quantity)*28000;  
      }
      
-     else if(productname.equals("Dark Chocolate(200 pesos)")){
-             int_total_price=Integer.valueOf(quantity)*200;
+     else if(productname.equals("Wooden Victorian Cabinet")){
+             int_total_price=Integer.valueOf(quantity)*30000;
+     }
+     else if(productname.equals("Modern Luxurious Drawer")){
+             int_total_price=Integer.valueOf(quantity)*12000;
+     }
+     else if(productname.equals("Multi-Purpose Premium Office/Study/Computer Table")){
+             int_total_price=Integer.valueOf(quantity)*25000;
+     }
+     else if(productname.equals("Modern Luxurious Expanding Shoe Rack / Cabinet")){
+             int_total_price=Integer.valueOf(quantity)*10000;
+     }
+     else if(productname.equals("Wooden Modern Luxurious Bed Frame")){
+             int_total_price=Integer.valueOf(quantity)*30000;
      }
      
      else{
-             int_total_price=Integer.valueOf(quantity)*100;
+             int_total_price=Integer.valueOf(quantity)*12000;
      }
      
     
