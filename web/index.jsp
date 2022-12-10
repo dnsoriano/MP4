@@ -54,29 +54,29 @@
 
                         <div class="box">
                             <div class="box-img">
-                                <img src="images/grooming.jpg">
+                                <img src="https://images.squarespace-cdn.com/content/v1/5ccf524ee6666965e4b862fd/d9b60e03-c188-4916-9b9c-9a7fb6a830c9/image6.jpg">
                             </div>
-                            <h2>Burger with fries</h2>
-                            <h3>Lorem Ipsum</h3>
-                            <p>₱75.00</p>
+                            <h2>Brown Leather Couch</h2>
+                            <h3>Premium Leather Exclusive</h3>
+                            <p>₱27,500.00</p>
                         </div>
 
                         <div class="box">
                             <div class="box-img">
-                                <img src="images/caretaker.jpg">
+                                <img src="https://nellavetrina.com/wp-content/uploads/2021/07/Fenice-9.jpg">
                             </div>
-                            <h2>Chicken with rice</h2>
-                            <h3>Lorem Ipsum</h3>
-                            <p>₱80.00</p>
+                            <h2>Luxurious Wooden Dining Table</h2>
+                            <h3>Premium Wooden Material Exclusive</h3>
+                            <p>₱28,000.00</p>
                         </div>
 
                         <div class="box">
                             <div class="box-img">
-                                <img src="images/training.jpg">
+                                <img src="https://www.andreafanfani.com/images/classic_furniture/3-luxury_dining_room_wooden_furniture_italy.jpg">
                             </div>
-                            <h2>2 Chicken with rice</h2>
-                            <h3>Lorem Ipsum</h3>
-                            <p>₱100.00</p>
+                            <h2>Wooden Victorian Cabinet </h2>
+                            <h3>Premium Wooden Material Exclusive</h3>
+                            <p>₱30,000.00</p>
                         </div>
                     </div>
                 </section>
@@ -89,9 +89,9 @@
 
                         Select your Food to order<p>
                             <select name="order_type" size="1">
-                                <option>Burger with fries(75 pesos)
-                                <option>Chicken with rice(80 pesos)
-                                <option>2 Chicken with rice(100 pesos)   
+                                <option>Brown Leather Couch
+                                <option>Luxurious Wooden Dining Table
+                                <option>Wooden Victorian Cabinet   
 
                             </select><br><br>
                         Quantity:<input type="number" name="quantity" class="info" min="1" required><br><br>
